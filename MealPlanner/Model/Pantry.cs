@@ -98,8 +98,9 @@ namespace MealPlanner.Model
         /// <param name="file">Path to the ingredients file</param>
         public void LoadIngredientsFile(string file)
         {
-            foreach (string ing in file)
-                
+            file.Split(" ");
+            IIngredient ingredient = GetIngredient(file);
+
             //Implement Me
         }
     }

@@ -30,6 +30,7 @@ namespace MealPlanner.Model
         /// <param name="recipeFiles">Array of file paths</param>
         public void LoadRecipeFiles(string[] recipeFiles)
         {
+            string recipeName = recipeFiles[0];
             
         }
 
