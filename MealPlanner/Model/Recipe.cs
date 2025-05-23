@@ -23,7 +23,7 @@ namespace MealPlanner.Model
             }
             return value;
         }
-
+        
         public string Name { get; }
         public IReadOnlyDictionary<IIngredient, int> IngredientsNeeded { get; }
         public double SuccessRate { get; }
